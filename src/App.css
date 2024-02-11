@@ -1,0 +1,134 @@
+/* General App Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #dddddd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+/* App Container with Blue Outline */
+#root {
+  width: 100%;
+  max-width: 800px;
+  min-height: 100vh;
+  border: 5px solid #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Header Box */
+.header-box {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  border-bottom: 5px solid #0056b3;
+}
+
+.header-box h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header-box p {
+  margin: 15px 0 0;
+  font-size: 1.2rem;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Form and Container Styles */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.textField {
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Button Styles */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Display Results */
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-left: 4px solid #1976d2;
+}
+
+/* Custom Styles for Material-UI Text Fields */
+.MuiTextField-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style for the input field */
+.MuiInputBase-input {
+  color: #333; /* Text color inside input - change as needed */
+  background-color: #fff; /* Background color of input field */
+  border-radius: 4px;
+}
+
+/* Style for the input label */
+.MuiInputLabel-root {
+  color: rgba(0, 0, 0, 0.6); /* Label color */
+}
+
+/* On focus, label color */
+.Mui-focused {
+  color: #1976d2; /* Change this color to match your theme */
+}
+
+/* Underline styles for input */
+.MuiInput-underline:before,
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42); /* Default underline color */
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #1976d2; /* Underline color when input is focused */
+}
+
+/* Override Material-UI default body color */
+.MuiTypography-body1 {
+  color: #333 !important; /* Adjust text color for better readability */
+}
