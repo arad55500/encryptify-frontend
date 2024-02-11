@@ -3,6 +3,8 @@
 
 Encryptify is a React-based web application designed to securely encrypt and decrypt messages. Utilizing advanced encryption algorithms, Encryptify offers a user-friendly interface to ensure your messages remain private and secure.
 
+You can find a live version of this web app here: https://encryptify-frontend.vercel.app/
+
 ## Getting Started
 
 ### Prerequisites
