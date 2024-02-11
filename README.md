@@ -1,4 +1,7 @@
-### Encryptify
+![Screenshot2](src/Screenshots/Screenshot2.png "screenshot2")
+
+# Encryptify V1.3
+
 ## Introduction
 
 Encryptify is a React-based web application designed to securely encrypt and decrypt messages. Utilizing advanced encryption algorithms, Encryptify offers a user-friendly interface to ensure your messages remain private and secure.
@@ -52,3 +55,8 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 Arad Okanin - aradokanin.com
+
+## Screenshot
+
+![Screenshot1](src/Screenshots/Screenshot1.png "screenshot1")
+
