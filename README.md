@@ -1,4 +1,4 @@
-![Screenshot2](src/Screenshots/Screenshot2.png "screenshot2")
+![Screenshot2](src/Screenshots/Screenshot2.jpg "screenshot2")
 
 # Encryptify V1.3
 
@@ -58,5 +58,5 @@ Arad Okanin - aradokanin.com
 
 ## Screenshot
 
-![Screenshot1](src/Screenshots/Screenshot1.png "screenshot1")
+![Screenshot1](src/Screenshots/Screenshot1.jpg "screenshot1")
 
