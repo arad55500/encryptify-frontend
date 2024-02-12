@@ -3,13 +3,13 @@ import { TextField, Button } from '@mui/material';
 import { encryptMessage } from '../utils/crypto';
 
 const EncryptionScreen = () => {
-  const [message, setMessage] = useState('');
-  const [key, setKey] = useState('');
-  const [encryptedMessage, setEncryptedMessage] = useState('');
+  const [message, setMessage] = useState(''); // Initialize message with an empty string
+  const [key, setKey] = useState(''); // Initialize key with an empty string
+  const [encryptedMessage, setEncryptedMessage] = useState(''); // Initialize encryptedMessage with an empty string
 
   const handleEncrypt = () => {
-    const encrypted = encryptMessage(message, key);
-    setEncryptedMessage(encrypted);
+    const encrypted = encryptMessage(message, key); // Call the encryptMessage function with the message and key
+    setEncryptedMessage(encrypted); // Set the encryptedMessage state to the encrypted message
   };
 
   return (
