@@ -18,7 +18,7 @@ You can find a live version of this web app here: https://encryptify-frontend.ve
 - Clone the repo:
 
 ```
-git clone https://github.com/your_username_/Encryptify.git
+git clone https://github.com/arad55500/encryptify-frontend.git
 ```
 
 - Install NPM packages:
