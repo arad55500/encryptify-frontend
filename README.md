@@ -30,7 +30,7 @@ npm install
 - Start the application:
 
 ```
-npm start
+npm run dev
 ```
 
 This runs the app in development mode. Open http://localhost:5173 to view it in your browser.
